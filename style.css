@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@1000&family=Noto+Sans+JP&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans JP", sans-serif;
+}
+body {
+  background-color: black;
+}
+.main {
+  background: url("/Netflix/assest/images/background.jpg");
+  height: 93vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  object-fit: cover;
+  position: relative;
+}
+.main .box {
+  height: 93vh;
+  width: 100%;
+  background-color: black;
+  opacity: 0.68;
+  position: absolute;
+  top: 0;
+  padding-bottom: 20px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  max-width: 80vw;
+  margin: auto;
+  justify-content: space-between;
+  height: 90px;
+  user-select: none;
+}
+.nav img {
+  width: 150px;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+.nav button {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+.hero {
+  font-family: "Mulish";
+  height: calc(100% - 90px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23px;
+  padding: 0 30px;
+}
+.hero > :first-child {
+  font-size: 45px;
+  max-width: 75vw;
+  text-align: center;
+}
+.hero > :nth-child(2) {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Mulish", sans-serif;
+  text-align: center;
+}
+.hero > :nth-child(3) {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.sepration {
+  background-color: rgb(105, 104, 104);
+  height: 7px;
+}
+.sep{
+  background-color: #232323;
+  height: 7px;
+}
+
+.btn {
+  padding: 3px 8px;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+  background-color: rgba(248, 243, 243, 0.021);
+  border-radius: 4px;
+  border: 1px solid white;
+}
+.nav div .btn-2 {
+  background-color: red;
+  color: #fff;
+  width: 75px;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  margin: 0 5px;
+  font-family: "Martel Sans";
+  align-items: center;
+}
+.btn-red {
+  background-color: red;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  font-size: 20px;
+  padding: 3px 24px;
+}
+.btn-red-sm {
+  background-color: red;
+  color: white;
+}
+
+/* .form{
+    color:#fff;
+    display: flex;
+    gap: 20px;
+}
+.form input{
+    height: 50px;
+    width: 400px;
+    background-color: rgb(36, 36, 36);
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
+    font-size: 15px;
+}
+.form input::placeholder{
+    color: white;
+    font-size: 15px;
+    text-align: left;
+}*/
+.form button {
+  background-color: red;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  padding: 6px 20px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+
+
+.main input {
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 3px 24px;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgb(110, 110, 110);
+  padding: 7px 101px 8px 14px;
+  font-weight: 900;
+  color: white;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  align-items: center;
+  max-width: 80vw;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+
+.secImg {
+  position: relative;
+}
+.secImg img {
+  width: 40vw;
+  position: relative;
+  top: 10px;
+  z-index: 10;
+}
+.secImg video {
+  position: absolute;
+  /* top: 88px;
+  right: 55px; */
+  top: 5.7vw;
+  right: 3.5vw;
+  width: 31vw;
+}
+.first > div :first-child{
+  font-size: 48px;
+  font-weight: bolder;
+  font-family: "Mulish";
+}
+.first > div :nth-child(2){
+  font-size: 24px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.third .secImg video {
+  position: absolute;
+  top: 3.7vw;
+  right: 7.5vw;
+  width: 26vw;
+}
+.faq{
+  background-color: black;
+  color: #fff;
+  padding: 34px;
+}
+.faq h2{
+  text-align: center;
+  /* padding: 5px 0; */
+  font-size: 48px;
+  font-family: "Mulish";
+
+}
+.faqBox:hover{
+  background-color: #414141;
+}
+.faqBox{
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  /* flex-direction: column; */
+  padding: 24px;
+  max-width: 60vw;
+  margin: 20px auto;
+  cursor: pointer;
+  font-size: 24px;
+  transition: all 1s ease-out;
+}
+footer{
+  color: #fff;
+  max-width: 60vw;
+  margin: auto;
+  padding: 14px;
+}
+.Questions{
+  padding: 34px 0;
+  font-size: 15px;
+}
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+}
+.footer-item{
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.footer a{
+  color: #fff;
+  font-size: 13px;
+}
+
+
+
+
